@@ -1,0 +1,42 @@
+@import "../../global.scss";
+.intro{
+    background-color: white;
+    overflow-y: hidden;
+   
+    
+}
+.picture{
+    @include tablet{
+        align-items: center;
+        justify-content: center;
+       
+        
+        
+        
+        
+    }
+    @include mobile{
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        
+        
+        
+        
+    }
+    
+}
+.pic{
+    height: 350px;
+    width: 350px;
+    align-items: center;
+    @include tablet{
+        height: 250px;
+        width: 200;
+        
+        
+        
+        
+    }
+}
+
