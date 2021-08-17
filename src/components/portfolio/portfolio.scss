@@ -90,6 +90,10 @@
                 @include tablet{
                     width: 85px;
                     height: 60px;
+                    object-fit: cover;
+                }
+                @include iphone8{
+                    object-fit: cover;
                 }
             }
 

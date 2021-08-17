@@ -2,10 +2,19 @@ $mainColor:#15026a;
 
 $width: 360px;
 $width2: 768px;
+$width3: 375px;
 
 
 @mixin mobile {
     @media (max-width: #{$width}) {
+        @content
+        
+    }
+    
+}
+
+@mixin iphone8 {
+    @media (max-width: #{$width3}) {
         @content
         
     }
