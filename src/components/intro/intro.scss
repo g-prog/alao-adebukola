@@ -2,27 +2,57 @@
 .intro{
     background-color: white;
     overflow-y: hidden;
+    
    
     
 }
-.picture{
-    @include tablet{
-        align-items: center;
-        justify-content: center;
+.arrow{
+   background-color: red;
+   margin-top: 50px;
+   @include mobile{
+    margin-top: 150px;
+    margin-left: 40px;
+    
+    }
+  
+
+    a{
+        img{
+            width: 50px;
+
+            animation: arrowBlink 2s infinite;
+        }
+        @keyframes arrowBlink{
+            100%{
+                opacity: 0;
+            }
+        }
+    }
+}
+
+.wrapper{
+   
+    
+
+    @include mobile{
+        
+       
        
         
         
         
         
     }
+}
+.picture{
+    @include tablet{
+        align-items: center;
+        justify-content: center;    
+    }
     @include mobile{
         align-items: center;
         justify-content: center;
-        margin-left: 0px;
-        
-        
-        
-        
+        margin-left: 0px       
     }
     
 }
@@ -32,10 +62,7 @@
     align-items: center;
     @include tablet{
         height: 250px;
-        width: 200;
-        
-        
-        
+        width: 200;  
         
     }
 }
