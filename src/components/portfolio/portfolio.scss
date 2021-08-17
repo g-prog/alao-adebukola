@@ -41,6 +41,14 @@
                 padding: 3px;
                 font-size: 10px;  
             }
+            @include iphone8{
+                margin-right: 8px;
+                padding: 3px;
+                font-size: 10px;  
+            }
+
+
+           
             &.active{
                 background-color: crimson;
                 color: white;
@@ -94,6 +102,7 @@
                 }
                 @include iphone8{
                     object-fit: cover;
+                    border-radius: 20px;
                 }
             }
 
