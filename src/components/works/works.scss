@@ -1,8 +1,16 @@
+@import "../../global.scss";
 .works{
     background-color: crimson; 
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
+    @include mobile{
+       flex-direction: column;
+    }
+    @include iphone8{
+        flex-direction: column;
+     }
 
     .slider{
         height: 350px;
@@ -28,11 +36,130 @@
                 justify-content: center;
 
                 .left{
-                    flex: 4;
+                    flex: 6;
+                    height: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: 10px;
+                    @include mobile{
+                        flex: 7;
+                        
+
+                        
+                    }
+
+                    @include iphone8{
+                        flex: 7;
+                        
+
+                        
+                    }
+
+                    .leftContainer{
+                        width: 150%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+                    @include mobile{
+                        width: 170%;
+                        
+
+                        
+                    }
+
+                    @include iphone8{
+                        width: 170%;
+                        
+
+                        
+                    }
+
+                    .imgContainer{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background-color: rgb(245, 179, 155);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        img{
+                            width: 25px;
+                        }
+
+                    }
+                    h2{
+                        font-size: 20px;
+
+                    }
+                    p{
+                        font-size: 14px;
+
+                        @include mobile{
+                            font-size: 11px;
+                
+
+                            
+                        }
+                        @include iphone8{
+                            font-size: 11px;
+                
+
+                            
+                        }
+                        
+                    }
+
+                    span{
+                        font-size: 12px;
+                        font-weight: 700;
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
                 }
 
                 .right{
-                    flex: 8;
+                    flex: 6;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    @include mobile{
+                        flex: 7;
+                        
+
+                        
+                    }
+                    @include iphone8{
+                        flex: 7;
+                        
+
+                        
+                    }
+                    
+
+                    img{
+                        width: 370px;
+                        height: 350px;
+                         
+
+                        @include mobile{
+                            width: 150px;
+                            height: 150px;
+
+                            
+                        }
+
+                        @include iphone8{
+                            width: 150px;
+                            height: 150px;
+
+                            
+                        }
+                    }
                 }
         
             }
