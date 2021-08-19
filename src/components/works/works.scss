@@ -14,11 +14,17 @@
 
         &.left{
             left: 100px;
-            transform: rotateY(180deg);
+            background-color: crimson;
+            
+            
         }
 
         &.right{
             right: 100px;
+            transform: rotateY(-180deg);
+            background-color: crimson;
+           
+            
            
         }
     }
