@@ -7,10 +7,21 @@
     flex-direction: row;
     position: relative;
 
+    
+
     .arrow{
         height: 50px;
         position: absolute;
         cursor: pointer;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include mobile{
+            margin-top:300px;
+            
+         }
 
         &.left{
             left: 100px;
@@ -50,6 +61,11 @@
             align-items: center;
             justify-content: center;
 
+            @include mobile{
+                height: 300px;
+             }
+           
+
 
             .item{
                 width: 700px;
@@ -59,6 +75,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                
 
                 .left{
                     flex: 6;

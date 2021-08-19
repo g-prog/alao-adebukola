@@ -37,6 +37,36 @@ export default function Works() {
 
     },
 
+    {
+        id: 4,
+        icon: "../assets/django.png",
+        title:"Django Blog Website", 
+        img: "../assets/w3.png",
+        desc: "Built with the help of Django, Bootstrap, HTML, CSS. I implemented user authentication and rendered blog contents dynamically from the backend using django",
+        link: "https://github.com/g-prog/second-django-project-website"
+
+    },
+
+    {
+        id: 5,
+        icon: "../assets/django.png",
+        title:"Django E-commerce Website", 
+        img: "../assets/pay.png",
+        desc: "Built with the help of Django, Bootstrap, HTML, CSS, JavaScript. I implemented user authentication, used Paypal API's to implement payment and rendered cart items  dynamically using JavaScript.",
+        link: "https://github.com/g-prog/second-django-project-website"
+
+    },
+
+    {
+        id: 6,
+        icon: "../assets/django.png",
+        title:"Django Travel Website", 
+        img: "../assets/travello2.jpg",
+        desc: "Built with the help of Django, Bootstrap, HTML, CSS. I implemented user authentication and rendered cart items  dynamicall using JavaScript.",
+        link: "https://github.com/g-prog/first_django-work"
+
+    },
+
   ];
 
   const handleClick = (way) => {
