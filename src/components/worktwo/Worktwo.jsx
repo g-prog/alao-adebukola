@@ -1,41 +1,11 @@
 
 import { useState } from "react";
-import "./works.scss";
+import "./worktwo.scss";
 
-export default function Works() {
+export default function Worktwo() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
-    {
-        id: 1,
-        icon: "../assets/react.png",
-        title:"Meck App", 
-        img: "../assets/meck.png",
-        desc: "Built with the help of React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utilized and implemented the Geolocation API, useState and useEffect hooks to access the user's location and make the contents dynamic. I also used react toastify to create toast notifications.",
-        link: "https://health-nine.vercel.app/"
-
-    },
-
-    {
-        id: 2,
-        icon: "../assets/react.png",
-        title:"ABCD Website", 
-        img: "../assets/abcd.png",
-        desc: "Built the About page section of the ABCD website with the help of React.js, Tailwind CSS, Material UI,  HTML and CSS and Next.js.",
-        link: "https://abcd-website.vercel.app/about"
-
-
-
-    },
-
-    {
-        id: 3,
-        icon: "../assets/react.png",
-        title:"Vasiti Website", 
-        img: "../assets/vasiti.png",
-        desc: "Built with the help of React.js, Tailwind CSS, Material UI, SASS, HTML, CSS.",
-        link: "https://template-nine-xi.vercel.app/"
-
-    },
+    
 
     {
         id: 4,
@@ -77,7 +47,6 @@ export default function Works() {
   
   return (
     <div className="works" id="works">
-      
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
