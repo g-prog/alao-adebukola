@@ -91,7 +91,8 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>{d.link}</span>
+                  
+                  <span><a href={d.link}>Link to Project</a></span>
                 </div>
               </div>
               <div className="right">
@@ -116,6 +117,11 @@ export default function Works() {
         alt=""
         onClick={() => handleClick()}
       />
+
+
+
+
+      
     </div>
   );
 }
