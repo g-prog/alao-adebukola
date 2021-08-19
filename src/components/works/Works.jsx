@@ -50,7 +50,7 @@ export default function Works() {
     {
         id: 5,
         icon: "../assets/django.png",
-        title:"Django E-commerce Website", 
+        title:" E-commerce Website", 
         img: "../assets/pay.png",
         desc: "Built with the help of Django, Bootstrap, HTML, CSS, JavaScript. I implemented user authentication, used Paypal API's to implement payment and rendered cart items  dynamically using JavaScript.",
         link: "https://github.com/g-prog/second-django-project-website"
@@ -62,7 +62,7 @@ export default function Works() {
         icon: "../assets/django.png",
         title:"Django Travel Website", 
         img: "../assets/travello2.jpg",
-        desc: "Built with the help of Django, Bootstrap, HTML, CSS. I implemented user authentication and rendered cart items  dynamicall using JavaScript.",
+        desc: "Built with the help of Django, Bootstrap, HTML, CSS. I implemented user authentication and rendered travel contents dynamically using django",
         link: "https://github.com/g-prog/first_django-work"
 
     },
