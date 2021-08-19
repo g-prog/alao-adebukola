@@ -12,10 +12,10 @@ export default function Works() {
                                     <img src="assets/react.png" alt="react logo" />
                                 </div>
                                 <h2>Meck Health</h2>
-                                <p>I designed this project with the help of React.js, Tailwind CSS,SASS, 
+                                <p>I designed this project with the help of React.js, Tailwind CSS, Material UI, SASS, 
                                     HTML and CSS.
                                     I implemented toast notifications with the help of React toastify and also 
-                                    utilized the JavaScript Geolocation API in order to access the user location.
+                                    utilized the JavaScript's Geolocation API in order to access the user's location.
                                     I also used the useState Hook and useEffect Hook to make the contents dynamic.
                                 </p>
                                 <span><a href="https://health-nine.vercel.app/">Link to project</a></span>
@@ -26,6 +26,8 @@ export default function Works() {
                         </div>
                     </div>
                 </div>
+                <img src="assets/left.png" alt="arrow" className="arrow left"/>
+                <img src="assets/left.png" alt="arrow" className="arrow right "/>
             </div>
            
             

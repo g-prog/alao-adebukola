@@ -1,9 +1,9 @@
+
 export const featuredportFolio = [
     {
       id: 1,
       title: "Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      img: "../assets/meck.png"
     },
     {
       id: 2,

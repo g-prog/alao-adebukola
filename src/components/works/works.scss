@@ -5,6 +5,25 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    position: relative;
+
+    .arrow{
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+
+        &.left{
+            left: 100px;
+            transform: rotateY(180deg);
+        }
+
+        &.right{
+            right: 100px;
+           
+        }
+    }
+    
+   
     @include mobile{
        flex-direction: column;
     }
