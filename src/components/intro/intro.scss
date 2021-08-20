@@ -2,68 +2,135 @@
 .intro{
     background-color: white;
     overflow-y: hidden;
-    
-   
-    
-}
-.arrow{
-   background-color: red;
-   margin-top: 50px;
-   @include mobile{
-    margin-top: 150px;
-    margin-left: 40px;
-    
+    display: flex;
+
+    @include mobile{
+        flex-direction: column;     
     }
-  
+    @include iphone8{
+        flex-direction: column;     
+    }
 
-    a{
-        img{
-            width: 50px;
+    .left{
+        flex: 0.5;
+        overflow: hidden;
+        .imgContainer{
+            width: 600px;
+            height: 600px;
+            background-color: crimson;
+            border-radius: 50%;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            margin-top: 30px;
+            float: right;
+            @include mobile{
+                width: 400px;   
+                height: 400px; 
+                
+            }
 
-            animation: arrowBlink 2s infinite;
-        }
-        @keyframes arrowBlink{
-            100%{
-                opacity: 0;
+            @include iphone8{
+                width: 400px;   
+                height: 400px; 
+                
+            }
+
+            img{
+               
+                height: 85%;
+                @include mobile{
+                    height: 80%;     
+                }
+
+                @include iphone8{
+                    height: 80%;     
+                }
+
             }
         }
-    }
-}
 
-.wrapper{
+    }
+
+    .right{
+        flex: 0.5;
+        position: relative;
+       
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            
+
+              
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+                font-weight: 400;
+                @include mobile{
+                    font-size: 40px;   
+                    font-weight: 400;  
+                    margin: 2px 86px;
+                }
+
+                @include iphone8{
+                    font-size: 40px;   
+                    font-weight: 400;  
+                    margin: 2px 86px;
+                }
+            }
+
+            h2{
+                font-size: 35px;
+                font-weight: 400;
+
+                @include mobile{
+                    font-size: 27px;   
+                    font-weight: 300;  
+                    
+                }
+
+                @include iphone8{
+                    font-size: 27px;   
+                    font-weight: 300;  
+                    
+                }
+            }
+
+            h3{
+                font-size: 30px;
+                font-weight: 400;
+
+                @include mobile{
+                    font-size: 23px;   
+                    font-weight: 300;  
+                }
+            }
+        }
+
+        a{
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+
+            img{
+                width: 30px;
+                animation: arrowBlink 2s infinite;
+
+                @keyframes arrowBlink{
+                    100%{
+                        opacity: 0;
+                    }
+                }
+
+            }
+        }
+        
+    }
+
    
     
-
-    @include mobile{
-        
-       
-       
-        
-        
-        
-        
-    }
 }
-.picture{
-    @include tablet{
-        align-items: center;
-        justify-content: center;    
-    }
-    @include mobile{
-        align-items: center;
-        justify-content: center;
-        margin-left: 0px       
-    }
-    
-}
-.pic{
-    height: 350px;
-    width: 350px;
-    align-items: center;
-    @include tablet{
-        height: 250px;
-        width: 200;  
-        
-    }
-}
-
