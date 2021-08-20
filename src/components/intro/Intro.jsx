@@ -10,7 +10,7 @@ export default function Intro() {
    useEffect(()=>{
        init(textRef.current,{
            showCursor: 'false',
-           strings: ["Front-end Developer", " in React.js,  Next.js", "in Tailwind CSS, Bootstrap" ,"in HTML,CSS,SASS", "in rendering API's", "Material UI, Fontawesome"]
+           strings: ["Front-end Developer", " in React.js,  Next.js", "in Tailwind CSS, Bootstrap" ,"in HTML,CSS,SASS", "in rendering API's", "in Material UI, Fontawesome"]
        } )
 
 

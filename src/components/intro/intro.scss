@@ -31,6 +31,13 @@
                 
             }
 
+            @include tablet{
+                width: 400px;   
+                height: 400px; 
+                align-items: flex-start;
+                
+            }
+
             @include iphone8{
                 width: 400px;   
                 height: 400px;
@@ -42,6 +49,10 @@
                
                 height: 85%;
                 @include mobile{
+                    height: 80%;     
+                }
+
+                @include tablet{
                     height: 80%;     
                 }
 
@@ -79,6 +90,12 @@
                     margin: 1px;
                 }
 
+                @include tablet{
+                    font-size: 30px;   
+                    font-weight: 400;  
+                    margin: 1px;
+                }
+
                 @include iphone8{
                     font-size: 30px;   
                     font-weight: 400;  
@@ -91,6 +108,12 @@
                 font-weight: 400;
 
                 @include mobile{
+                    font-size: 27px;   
+                    font-weight: 300;  
+                    
+                }
+
+                @include tablet{
                     font-size: 27px;   
                     font-weight: 300;  
                     
@@ -116,6 +139,11 @@
                          
                     }
 
+                    @include tablet{
+                        font-size: 20px;   
+                         
+                    }
+
                     @include iphone8{
                         font-size: 20px;   
                          
@@ -125,6 +153,11 @@
                 }
 
                 @include mobile{
+                    font-size: 23px;   
+                    font-weight: 300;  
+                }
+
+                @include tablet{
                     font-size: 23px;   
                     font-weight: 300;  
                 }
