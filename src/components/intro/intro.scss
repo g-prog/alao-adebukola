@@ -27,12 +27,14 @@
             @include mobile{
                 width: 400px;   
                 height: 400px; 
+                align-items: flex-start;
                 
             }
 
             @include iphone8{
                 width: 400px;   
-                height: 400px; 
+                height: 400px;
+                align-items: flex-start;
                 
             }
 
