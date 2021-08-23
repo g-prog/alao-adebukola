@@ -82,6 +82,9 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          @include iphone8 {
+            flex: 6;
+          }
           
 
           .leftContainer {
@@ -120,7 +123,7 @@
                 }
 
                 @include iphone8 {
-                    width: 15px;
+                    width: 5px;
                   }
               }
             }
@@ -166,6 +169,10 @@
           align-items: center;
           justify-content: center;
           overflow: hidden;
+
+          @include iphone8 {
+            flex: 6;
+          }
 
          
 
