@@ -137,6 +137,10 @@
                 height: 180px;
                 object-fit: cover;
                 z-index: 1;
+
+                @include iphone8{
+                    object-fit: cover;
+                }
                 
             }
 
