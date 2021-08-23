@@ -10,7 +10,7 @@ export default function Works() {
         icon: "../assets/react.png",
         title:"Meck App", 
         img: "../assets/meck.png",
-        desc: "Built with the help of React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utilized and implemented the Geolocation API, useState and useEffect hooks to access the user's location and make the contents dynamic. I also used react toastify to create toast notifications.",
+        desc: "Built with  React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utilized the Geolocation API to access the user's location, and the useState  hook to render contents dynamically and react toastify to create toast notifications.",
         link: "https://health-nine.vercel.app/"
 
     },
