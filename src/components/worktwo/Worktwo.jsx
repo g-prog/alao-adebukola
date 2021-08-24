@@ -76,13 +76,13 @@ export default function Worktwo() {
         ))}
       </div>
       <img
-        src="assets/left.png"
+        src="assets/right.png"
         className="arrow left"
         alt=""
         onClick={() => handleClick("left")}
       />
       <img
-        src="assets/left.png"
+        src="assets/right.png"
         className="arrow right"
         alt=""
         onClick={() => handleClick()}
