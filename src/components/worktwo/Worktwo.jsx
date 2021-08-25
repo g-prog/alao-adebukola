@@ -13,7 +13,8 @@ export default function Worktwo() {
         title:"Django Blog Website", 
         img: "../assets/w3.png",
         desc: "Built with the help of Django, Bootstrap, HTML, CSS. I implemented user authentication and rendered blog contents dynamically from the backend using django",
-        link: "https://github.com/g-prog/second-django-project-website"
+        link: "https://github.com/g-prog/second-django-project-website",
+        github: "https://github.com/g-prog/second-django-project-website"
 
     },
 
@@ -23,7 +24,8 @@ export default function Worktwo() {
         title:" E-commerce Website", 
         img: "../assets/pay.png",
         desc: "Built with the help of Django, Bootstrap, HTML, CSS, JavaScript. I implemented user authentication, used Paypal API's to implement payment and rendered cart items  dynamically using JavaScript.",
-        link: "https://github.com/g-prog/second-django-project-website"
+        link: "https://github.com/g-prog/second-django-project-website",
+        github: "https://github.com/g-prog/second-django-project-website"
 
     },
 
@@ -33,7 +35,8 @@ export default function Worktwo() {
         title:"Django Travel Website", 
         img: "../assets/travello2.jpg",
         desc: "Built with the help of Django, Bootstrap, HTML, CSS. I implemented user authentication and rendered travel contents dynamically using django",
-        link: "https://github.com/g-prog/first_django-work"
+        link: "https://github.com/g-prog/first_django-work",
+        github: "https://github.com/g-prog/first_django-work"
 
     },
 
@@ -62,7 +65,8 @@ export default function Worktwo() {
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
                   
-                  <span><a href={d.link}>Link to Project</a></span>
+                  <span><a href={d.link}><p>Project</p></a></span>
+                  <span><a href={d.github}><p>Github</p></a></span>
                 </div>
               </div>
               <div className="right">

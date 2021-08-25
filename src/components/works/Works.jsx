@@ -11,7 +11,8 @@ export default function Works() {
         title:"Meck App", 
         img: "../assets/meck.png",
         desc: "Built with  React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utilized the Geolocation API to access the user's location, and the useState  hook to render contents dynamically and react toastify to create toast notifications.",
-        link: "https://health-nine.vercel.app/"
+        link: "https://health-nine.vercel.app/",
+        github: "https://github.com/g-prog/meck"
 
     },
 
@@ -21,7 +22,8 @@ export default function Works() {
         title:"ABCD Website", 
         img: "../assets/abcd.png",
         desc: "Built the About page section of the ABCD website with the help of React.js, Tailwind CSS, Material UI,  HTML and CSS and Next.js.",
-        link: "https://abcd-website.vercel.app/about"
+        link: "https://abcd-website.vercel.app/about",
+        github: "https://github.com/FayVik/abcd-website"
 
 
 
@@ -33,7 +35,8 @@ export default function Works() {
         title:"Vasiti Website", 
         img: "../assets/vasiti.png",
         desc: "Built with the help of React.js, Tailwind CSS, Material UI, SASS, HTML, CSS.",
-        link: "https://template-nine-xi.vercel.app/"
+        link: "https://template-nine-xi.vercel.app/",
+        github: "https://github.com/g-prog/template"
 
     },
 
@@ -69,7 +72,7 @@ export default function Works() {
                     <span><a href={d.link}><p>Hosted Project</p></a></span>
                   </div>
 
-                  <span><a href={d.link}><p>Github</p></a></span>
+                  <span><a href={d.github}><p>Github</p></a></span>
                   
                 </div>
               </div>
