@@ -10,7 +10,7 @@ export default function Works() {
         icon: "../assets/react.png",
         title:"Meck App", 
         img: "../assets/meck.png",
-        desc: "Built with  React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utilized the Geolocation API to access the user's location, and the useState  hook to render contents dynamically and react toastify for toast notifications.",
+        desc: "Built with  React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utilized the Geolocation API to access the user's location, and the useState  hook to render contents dynamically and react toastify to create toast notifications.",
         link: "https://health-nine.vercel.app/"
 
     },
@@ -66,10 +66,10 @@ export default function Works() {
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
                   <div className="links">
-                    <span><a href={d.link}>Hosted Project</a></span>
+                    <span><a href={d.link}><p>Hosted Project</p></a></span>
                   </div>
 
-                  <span><a href={d.link}>Github</a></span>
+                  <span><a href={d.link}><p>Github</p></a></span>
                   
                 </div>
               </div>
