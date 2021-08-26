@@ -3,6 +3,7 @@ import Intro from  "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
 import Worktwo from "./components/worktwo/Worktwo";
+import Workthree from "./components/workthree/Workthree";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
@@ -25,6 +26,7 @@ function App() {
         <Portfolio/>
         <Works/>
         <Worktwo/>
+        <Workthree/>
         <Testimonials/>
         <Contact/>
 

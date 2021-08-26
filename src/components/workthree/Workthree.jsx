@@ -1,45 +1,52 @@
-
 import { useState } from "react";
-import "./works.scss";
+import "./workthree.scss";
 
-export default function Works() {
+export default function Workthree() {
   
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
+
+
     {
         id: 1,
         icon: "../assets/react.png",
-        title:"Meck App", 
-        img: "../assets/meck.png",
-        desc: "Built with  React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utilized the Geolocation API to access the user's location, and the useState  hook to render contents dynamically and react toastify to create toast notifications.",
-        link: "https://health-nine.vercel.app/",
-        github: "https://github.com/g-prog/meck"
+        title:"Static Landing Page", 
+        img: "../assets/static.png",
+        desc: "Built with Bootstrap, HTML and CSS",
+        link: "https://eager-blackwell-af8aab.netlify.app/",
+        github: "https://github.com/g-prog/abcdlanding"
+
+
 
     },
 
     {
         id: 2,
         icon: "../assets/react.png",
-        title:"ABCD Website", 
-        img: "../assets/abcd.png",
-        desc: "Built the About page section of the ABCD website with the help of  Tailwind CSS,  HTML, CSS and Next.js.",
-        link: "https://abcd-website.vercel.app/about",
-        github: "https://github.com/FayVik/abcd-website"
+        title:"Static Header Section", 
+        img: "../assets/agriculture.png",
+        desc: "Built with Bootstrap, HTML and CSS",
+        link: "https://eager-blackwell-af8aab.netlify.app/",
+        github: "https://github.com/g-prog/abcdlanding"
 
 
 
     },
+
 
     {
         id: 3,
         icon: "../assets/react.png",
-        title:"Vasiti Website", 
-        img: "../assets/vasiti.png",
-        desc: "I was inspired by the Vasiti.com website. Built with the help of React.js, Tailwind CSS, Material UI, SASS, HTML, CSS.",
-        link: "https://template-nine-xi.vercel.app/",
-        github: "https://github.com/g-prog/template"
+        title:"Outer Space CSS Animations", 
+        img: "../assets/stars.png",
+        desc: "Built with HTML and CSS. ",
+        link: "https://next-i5wrqdji3-g-prog.vercel.app/trial",
+        github: "https://github.com/g-prog/next"
 
     },
+
+    
+    
 
     
 
@@ -52,7 +59,7 @@ export default function Works() {
   };
   
   return (
-    <div className="works" id="works">
+    <div className="workthree" id="workthree">
       
       
       <div
