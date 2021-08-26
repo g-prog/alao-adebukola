@@ -89,6 +89,14 @@ export default function Portfolio() {
                 
                 
             </div>
+
+           <div className="cta">
+                    <p>slide to see full details  below</p>
+                    <a href="#works">
+                        <img src="assets/down.jpg" alt="down arrow" />
+                    </a>
+           </div>
+           
             
             
             

@@ -6,7 +6,35 @@
     align-items: center;
 
    
+    .cta{
+        margin-top: 10px;
 
+        a{
+            position: absolute;
+            left: 50%;
+
+            @include mobile{
+                left: 45%;  
+            }
+            
+            @include iphone8{
+                left: 45%;  
+            }
+            
+
+            img{
+                width: 30px;
+                animation: arrowBlink 2s infinite;
+
+                @keyframes arrowBlink{
+                    100%{
+                        opacity: 0;
+                    }
+                }
+
+            }
+        }
+    }
     h1{
         font-size: 50px;
 
