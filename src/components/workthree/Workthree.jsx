@@ -9,7 +9,7 @@ export default function Workthree() {
 
     {
         id: 1,
-        icon: "../assets/react.png",
+        icon: "../assets/html.jpg",
         title:"Static Landing Page", 
         img: "../assets/static.png",
         desc: "Built with Bootstrap, HTML and CSS",
@@ -22,10 +22,10 @@ export default function Workthree() {
 
     {
         id: 2,
-        icon: "../assets/react.png",
+        icon: "../assets/html.jpg",
         title:"Static Header Section", 
         img: "../assets/agriculture.png",
-        desc: "Built with Bootstrap, HTML and CSS",
+        desc: "Built with HTML and CSS",
         link: "https://eager-blackwell-af8aab.netlify.app/",
         github: "https://github.com/g-prog/abcdlanding"
 
@@ -36,10 +36,10 @@ export default function Workthree() {
 
     {
         id: 3,
-        icon: "../assets/react.png",
+        icon: "../assets/html.jpg",
         title:"Outer Space CSS Animations", 
         img: "../assets/stars.png",
-        desc: "Built with HTML and CSS. ",
+        desc: "Built with HTML, CSS and Next.js. ",
         link: "https://next-i5wrqdji3-g-prog.vercel.app/trial",
         github: "https://github.com/g-prog/next"
 

@@ -3,6 +3,7 @@ import "./skills.scss"
 export default function Skills() {
     return (
         <div className="skills" id='skills'>
+            <h1 className="text-center font-bold">SKILLS</h1>
             <div className="container">
             <div className="images">
                 <div className="items">

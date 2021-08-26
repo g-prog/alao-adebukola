@@ -124,32 +124,38 @@ export const nextportFolio = [
         title:" ABCD Website", 
         img: "../assets/abcd.png"
     },
+
+    {
+        id: 11,
+        title:"Outer space Animations", 
+        img: "../assets/stars.png"
+    },
    
 ];
 
 export const otherportFolio = [
     {
         id: 12,
-        title:"E-commerce Website", 
-        img: "https://thumbs.dreamstime.com/z/computer-python-logo-interpreted-programming-language-whose-philosophy-emphasizes-readability-your-code-169907299.jpg"
+        title:"Static landing Page", 
+        img: "../assets/static.png"
     },
 
     {
         id: 13,
-        title:"React Website", 
-        img: "https://wallpapercave.com/wp/wp2465923.jpg"
+        title:"Static Header Section", 
+        img: "../assets/agriculture.png"
     },
 
     {
         id: 14,
-        title:"Next Website", 
-        img: "https://wallpapercave.com/wp/wp2465923.jpg"
+        title:"Outer space Animations", 
+        img: "assets/stars.png"
     },
 
     {
         id: 15,
-        title:"Other Works", 
-        img: "https://wallpapercave.com/wp/wp2465923.jpg"
+        title:"Haskell Word game", 
+        img: "assets/haskell.jpg"
     },
 
     
