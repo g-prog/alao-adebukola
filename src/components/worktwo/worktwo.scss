@@ -30,14 +30,17 @@
     &.left {
       left: 100px;
       transform: rotateY(-180deg);
+      
 
       @include tablet {
         left: 0;
+        
       }
     }
 
     &.right {
       right: 100px;
+     
       @include tablet{
         right: 0;
       }
@@ -84,6 +87,10 @@
           width: 80%;
           height: 150px;
           margin: 15px 0;
+        }
+
+        @include tablet {
+          width: 300px;
         }
 
         @include iphone8 {

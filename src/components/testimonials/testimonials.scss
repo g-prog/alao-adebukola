@@ -1,3 +1,19 @@
 .testimonials{
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    .card{
+        position: relative;
+        width: 600px;
+        height: 350px;
+        background:#ccc;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        
+
+    }
 }
