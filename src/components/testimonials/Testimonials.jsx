@@ -32,7 +32,7 @@ export default function Testimonials() {
                         </div>
                         
                     </div>
-                    <img src="assets/html.jpg" alt="caj" />
+                    <img src="assets/work1.jpg" alt="caj" />
                 </div>
 
 
@@ -57,7 +57,7 @@ export default function Testimonials() {
                         </div>
                         
                     </div>
-                    <img src="assets/html.jpg" alt="caj" />
+                    <img src="assets/work1.jpg" alt="caj" />
                 </div>
 
                 
