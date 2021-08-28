@@ -13,11 +13,11 @@
         position: absolute;
 
         @include mobile{
-            top: 85px;
+            top: 70px;
             left: 105px;
         }
         @include iphone8{
-            top: 85px;
+            top: 70px;
             left: 105px;
         }
         
@@ -64,11 +64,11 @@
         flex-wrap: wrap;
 
         @include mobile{
-            min-height: 80vh;
+            min-height: 40vh;
         }
 
         @include iphone8{
-            min-height: 80vh;
+            min-height: 40vh;
         }
 
         .card,.card2{
