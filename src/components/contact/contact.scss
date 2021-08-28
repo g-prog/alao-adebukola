@@ -13,10 +13,10 @@
         flex: 1;
         margin-top: 50px;
         @include iphone8{
-            margin-left: 10px;
+            margin-left: 30px;
         }
         @include mobile{
-            margin-left: 10px;
+            margin-left: 30px;
         }
 
         img{
