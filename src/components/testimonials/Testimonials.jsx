@@ -39,8 +39,9 @@ export default function Testimonials() {
                 <div className="card2">
                     <div className="circle"></div>
                     <div className="content">
-                        <h6>Build for SDG's powered by Andela</h6>
+                        <h6>Internships with Andela, Google and HNG</h6>
                         <h6>April 2020 - October 2020</h6>
+                        <h6>Build for SDG's powered by Andela</h6>
                         <h6>Intern</h6>
                         <div className="item">
                             <div className="item1">

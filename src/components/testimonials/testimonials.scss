@@ -92,6 +92,7 @@
             display: flex;
             align-items: center;
             transition: 0.5s;
+            overflow-y: hidden;
 
             @include mobile{
                 height: 230px;
