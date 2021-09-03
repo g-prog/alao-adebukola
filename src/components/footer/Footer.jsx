@@ -34,6 +34,13 @@ function Footer() {
                     
                 </div>
 
+                <div className="image5">
+                    <a href="alaoadebukola6@gmail.com">
+                     <img src="assets/info.png" alt="email" />
+                    </a>
+                    
+                </div>
+
             </div>
             <div className="copyright">
                 <img src="assets/copyright.jpg" alt="copyright" />
