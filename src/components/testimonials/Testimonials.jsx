@@ -4,7 +4,7 @@ export default function Testimonials() {
     return (
         <div className="testimonials" id="testimonials">
             <div className="cta">
-                <p>Click on the images</p>
+                <p>Click/hover on the images</p>
             </div>
            
            <div className="heading">

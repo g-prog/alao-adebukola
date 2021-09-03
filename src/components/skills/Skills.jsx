@@ -3,39 +3,42 @@ import "./skills.scss"
 export default function Skills() {
     return (
         <div className="skills" id='skills'>
-            <h1 className="text-center font-bold">SKILLS</h1>
+            <div className="heading">
+             <h1>Skills</h1>
+            </div>
+            
             <div className="container">
             <div className="images">
                 <div className="items">
                     <img src="assets/react.png" alt="react" />
-                    <p>REACT</p>
+                    <p className="text-center">REACT</p>
                 </div>
 
                 <div className="items">
                     <img src="assets/django.png" alt="django" />
-                    <p>DJANGO</p>
+                    <p className="text-center">DJANGO</p>
                 </div>
 
                 <div className="items">
                     <img src="assets/html.jpg" alt="html" />
-                    <p>HTML</p>
+                    <p className="text-center">HTML</p>
                 </div>  
             </div>
 
                 <div className="images2">
                     <div className="items">
                         <img src="assets/css.jpg" alt="css" />
-                        <p>CSS</p>
+                        <p className="text-center">CSS</p>
                     </div>
 
                     <div className="items">
                         <img src="assets/sass.jpg" alt="Sass" />
-                        <p>SASS</p>
+                        <p className="text-center">SASS</p>
                     </div>
 
                     <div className="items">
                         <img src="assets/bootstrap.jpg" alt="bootstrap" />
-                        <p>BOOTSTRAP</p>
+                        <p className="text-center">BOOTSTRAP</p>
                     </div>
 
                 </div>
@@ -44,17 +47,17 @@ export default function Skills() {
                 <div className="images3">
                     <div className="items">
                         <img src="assets/github.PNG" alt="git" />
-                        <p>GIT</p>
+                        <p className="text-center">GIT</p>
                     </div>
 
                     <div className="items">
                         <img src="assets/tailwind.jpg" alt="tailwind" />
-                        <p>TAILWIND</p>
+                        <p className="text-center">TAILWIND</p>
                     </div>
 
                     <div className="items">
                         <img src="assets/haskell.jpg" alt="haskell" />
-                        <p>HASKELL</p>
+                        <p className="text-center">HASKELL</p>
                     </div>
 
                 </div>

@@ -3,6 +3,16 @@
     background-color: white;
     overflow-y: hidden;
 
+    .heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        h1{
+            font-size: 25px;
+        }
+    }
+
     .container{
         display: flex;
         justify-content: center;
