@@ -36,6 +36,17 @@
         left: 600px;
         position: absolute;
 
+        @include mobile{
+            top: 40px;
+            
+        }
+
+        @include iphone8{
+            top: 40px;
+            
+        }
+
+
         p{
             @include mobile{
                 font-size: 10px;
