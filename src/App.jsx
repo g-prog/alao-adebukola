@@ -9,6 +9,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import About from "./components/about/About";
+import Footer from "./components/footer/Footer";
 import "./app.scss"
 import './index.css';
 import { useState } from "react";
@@ -33,6 +34,7 @@ function App() {
         <Testimonials/>
         <About/>
         <Contact/>
+        <Footer/>
 
       </div>
     </div>
