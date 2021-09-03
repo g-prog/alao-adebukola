@@ -26,7 +26,7 @@ export default function Workthree() {
         title:"Static Header Section", 
         img: "../assets/agriculture.png",
         desc: "Built with HTML and CSS",
-        link: "https://eager-blackwell-af8aab.netlify.app/",
+        link: "https://epic-roentgen-ef0d7a.netlify.app/",
         github: "https://github.com/g-prog/abcdlanding"
 
 

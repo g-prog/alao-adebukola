@@ -22,7 +22,7 @@ function About() {
                     focused on Front-end Web development.</p>
                     <p>
                          I would describe myself to be highly motivated towards learning and advancing in every aspect. I take so much pride in giving
-                        my best in every opportunity. I go over and beyond to ensure my client's needs are satisfied.
+                        my best in every opportunity. I go over and beyond to ensure that my client's needs are satisfied.
                         When I am not programming, I am busy exploring my other interests in contemporary arts.
                     </p>
                 </div>
