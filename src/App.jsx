@@ -8,6 +8,7 @@ import Skills from "./components/skills/Skills";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
+import About from "./components/about/About";
 import "./app.scss"
 import './index.css';
 import { useState } from "react";
@@ -30,6 +31,7 @@ function App() {
         <Workthree/>
         <Skills/>
         <Testimonials/>
+        <About/>
         <Contact/>
 
       </div>
