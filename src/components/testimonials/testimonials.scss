@@ -121,12 +121,12 @@
             @include mobile{
                 height: 230px;
                 overflow-y: hidden;
-                margin-top: 25px;
+                margin-top: 30px;
             }
             @include iphone8{
                 height: 230px;
                 overflow-y: hidden;
-                margin-top: 25px;
+                margin-top: 30px;
             }
     
             .circle{
