@@ -35,7 +35,7 @@ function Footer() {
                 </div>
 
                 <div className="image5">
-                    <a href="alaoadebukola6@gmail.com">
+                    <a href="#contact">
                      <img src="assets/info.png" alt="email" />
                     </a>
                     
@@ -47,6 +47,11 @@ function Footer() {
                 <p>Alao Adebukola 2021</p>
             </div>
 
+            <div className="email">
+                <span><p>alaoadebukola6@gmail.com</p></span>
+            </div>
+
+            
             
             
             

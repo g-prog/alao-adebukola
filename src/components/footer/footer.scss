@@ -2,7 +2,18 @@
 .footer{
     background-color: black;
     color: white;
+    .email{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
 
+        span{
+            p{
+                color: gray;
+            }
+        }
+    }
     .copyright{
         display: flex;
         justify-content: center;
