@@ -2,6 +2,17 @@
 export const featuredportFolio = [
     {
         id: 1,
+        title:"Podcast Player", 
+        img: "../assets/bandp.png"
+    },
+
+    {
+        id: 2,
+        title:"Logistics Website", 
+        img: "../assets/abgees.png"
+    },
+    {
+        id: 3,
         title:"E-commerce Website", 
         img: "../assets/pay.png"
     },

@@ -6,9 +6,20 @@ export default function Workthree() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
 
-
     {
-        id: 1,
+      id: 1,
+      icon: "../assets/html.jpg",
+      title:"Logistics Website", 
+      img: "../assets/abgees.png",
+      desc: "A Logistics Website still in production",
+      link: "https://eager-blackwell-af8aab.netlify.app/",
+      github: "https://github.com/g-prog/abcdlanding"
+
+
+
+  },
+    {
+        id: 2,
         icon: "../assets/html.jpg",
         title:"Static Landing Page", 
         img: "../assets/static.png",

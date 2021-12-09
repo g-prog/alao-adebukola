@@ -34,7 +34,7 @@ export default function Works() {
       title:"Portfolio Website", 
       img: "../assets/mines.png",
       desc: "Built with React.js, Tailwind CSS, HTML, CSS. I utilized React hooks to make the navigation bar  and portfolio section reactive, I implemented snap-scrolling and built a carousel slider from scratch.",
-      link: "https://alao-adebukola.vercel.app/#testimonials",
+      link: "https://alao-adebukola.vercel.app",
       github: "https://github.com/g-prog/alao-adebukola"
 
   },
