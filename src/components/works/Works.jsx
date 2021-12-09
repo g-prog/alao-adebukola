@@ -12,7 +12,7 @@ export default function Works() {
         icon: "../assets/react.png",
         title:"Podcast Player", 
         img: "../assets/bandp.png",
-        desc: "Not a React.js project but It was quite interesting putting this together. I built Play, Pause, Previous and Next functionalities. I built this with Vanilla Javascript, HTML and CSS, I also utilized Font-awesome CDN. I am currently working on its mobile-responsiveness.",
+        desc: "Not a React.js project but It was quite interesting putting this together. I built  the Play, Pause, Previous and Next functionalities. I built this with Vanilla Javascript, HTML and CSS, I also utilized Font-awesome CDN. I am currently working on its mobile-responsiveness.",
         link: "https://infallible-mcclintock-d02178.netlify.app/",
         github: "https://github.com/g-prog/podcast-player"
 
