@@ -35,17 +35,7 @@ export const featuredportFolio = [
         img: "../assets/abcd.png"
     },
 
-    {
-        id: 5,
-        title:"E-commerce Website", 
-        img: "../assets/ecomitems.png"
-    },
-
-    {
-        id: 6,
-        title:"E-commerce Website", 
-        img: "../assets/ecom2.png"
-    },
+    
 
     
 
