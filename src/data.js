@@ -18,19 +18,19 @@ export const featuredportFolio = [
     },
 
     {
-        id: 2,
+        id: 4,
         title:"Blog Website", 
         img: "../assets/w3.png"
     },
 
     {
-        id: 3,
+        id: 5,
         title:"Meck App", 
         img: "../assets/meck.png"
     },
 
     {
-        id: 4,
+        id: 6,
         title:"ABCD Website", 
         img: "../assets/abcd.png"
     },
