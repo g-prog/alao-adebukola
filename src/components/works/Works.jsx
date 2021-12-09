@@ -12,7 +12,7 @@ export default function Works() {
         icon: "../assets/react.png",
         title:"Podcast Player", 
         img: "../assets/bandp.png",
-        desc: "Not a React.js project but It was quite interesting putting this together. I built this with Vanilla Javascript, HTML and CSS, I also utilized Font-awesome CDN",
+        desc: "Not a React.js project but It was quite interesting putting this together. I built Play, Pause, Previous and Next functionalities. I built this with Vanilla Javascript, HTML and CSS, I also utilized Font-awesome CDN. I am currently working on its mobile-responsiveness.",
         link: "https://infallible-mcclintock-d02178.netlify.app/",
         github: "https://github.com/g-prog/podcast-player"
 
@@ -27,6 +27,17 @@ export default function Works() {
         github: "https://github.com/g-prog/meck"
 
     },
+
+    {
+      id: 3,
+      icon: "../assets/react.png",
+      title:"Portfolio Website", 
+      img: "../assets/mines.png",
+      desc: "Built with React.js, Tailwind CSS, HTML, CSS. I utilized React hooks to make the navigation bar  and portfolio section reactive, I implemented snap-scrolling and built a carousel slider from scratch.",
+      link: "https://alao-adebukola.vercel.app/#testimonials",
+      github: "https://github.com/g-prog/alao-adebukola"
+
+  },
 
     {
         id: 2,
