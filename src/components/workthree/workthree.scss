@@ -1,14 +1,12 @@
 @import "../../global.scss";
 
-.workthree {
+.workthree{
   background-color: crimson;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow-y: hidden;
-
-  
 
   .arrow {
     height: 40px;
@@ -24,7 +22,7 @@
       }
 
       @include tablet{
-        height: 20px;
+        display: none;
       }
 
       
@@ -32,21 +30,11 @@
     &.left {
       left: 100px;
       transform: rotateY(-180deg);
-
-      @include tablet {
-        left: 0;
-      }
       
     }
 
     &.right {
       right: 100px;
-
-      @include tablet {
-        right: 0;
-      }
-     
-      
       
     }
   }
@@ -64,13 +52,18 @@
       justify-content: center;
     }
 
-    
-
+  
     @include iphone8 {
         height: 100vh;
         flex-direction: column;
         justify-content: center;
-      }
+    }
+
+    @include tablet {
+      height: 100vh;
+      flex-direction: column;
+      justify-content: center;
+  }
 
     .container {
       width: 100vw;
@@ -87,11 +80,14 @@
         align-items: center;
         justify-content: center;
 
-        @include tablet {
-          width: 300px;
+       
+        @include mobile {
+          width: 80%;
+          height: 150px;
+          margin: 15px 0;
         }
 
-        @include mobile {
+        @include tablet {
           width: 80%;
           height: 150px;
           margin: 15px 0;
@@ -114,6 +110,10 @@
           @include iphone8 {
             flex: 8;
           }
+
+          @include tablet{
+            flex: 8;
+          }
          
 
           .leftContainer {
@@ -123,17 +123,17 @@
             flex-direction: column;
             justify-content: space-between;
 
-           
-
             @include iphone8 {
-                width: 150%;
-                height: 80%;
-              }
+              width: 150%;
+              height: 80%;
+              
+            }
 
-             
-
-            
-
+            @include tablet{
+              width: 150%;
+              height: 80%;
+              
+            }
             .imgContainer {
               width: 40px;
               height: 40px;
@@ -157,6 +157,12 @@
                 
               }
 
+              @include tablet {
+                width: 20px;
+                height: 20px;
+                
+              }
+
               
 
               img {
@@ -167,6 +173,11 @@
                 }
 
                 @include iphone8 {
+                  width: 15px;
+                }
+
+
+                  @include tablet{
                     width: 15px;
                   }
 
@@ -184,6 +195,10 @@
                 font-size: 10px;
               }
 
+              @include tablet{
+                font-size: 10px;
+              }
+
               
             }
             p {
@@ -197,6 +212,10 @@
                 font-size: 7px;
               }
 
+              @include tablet{
+                font-size: 7px;
+              }
+
              
             }
             span {
@@ -206,6 +225,11 @@
               cursor: pointer;
 
               @include iphone8{
+                font-size: 8px;
+                
+              }
+
+              @include tablet{
                 font-size: 8px;
                 
               }
@@ -226,6 +250,10 @@
             flex: 4;
           }
 
+          @include tablet{
+            flex: 4;
+          }
+
           
 
          
@@ -236,7 +264,11 @@
 
             @include iphone8 {
                 width: 100px;
-              }
+            }
+
+            @include tablet{
+              width: 100px;
+          }
 
              
           }

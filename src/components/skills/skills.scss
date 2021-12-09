@@ -40,6 +40,10 @@
                 @include iphone8{
                     margin-left: 20px;  
                 }
+
+                @include tablet{
+                    margin-left: 20px;  
+                }
         
                 img{
                     width: 65px;

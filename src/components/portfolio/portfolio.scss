@@ -18,6 +18,10 @@
                 left: 45%;  
             }
 
+            @include tablet{
+                left: 45%;  
+            }
+
             img{
                 width: 30px;
                 animation: arrowBlink 2s infinite;
@@ -123,6 +127,11 @@
             width: 100%;
         }
 
+        @include tablet{
+            width: 100%;
+        }
+
+
         
 
         .item{
@@ -159,7 +168,7 @@
                 position: absolute;
                 font-size: 20px;
                 @include tablet{
-                    font-size: 10px;
+                    font-size: 7px;
                 }
             }
             img{
@@ -169,6 +178,13 @@
                 z-index: 1;
 
                 @include iphone8{
+                    object-fit: cover;
+                    border-radius: 38px;
+                    width: 130px;
+                    height: 120px;
+                }
+
+                @include tablet{
                     object-fit: cover;
                     border-radius: 38px;
                     width: 130px;

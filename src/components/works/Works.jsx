@@ -6,8 +6,19 @@ export default function Works() {
   
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
+
     {
         id: 1,
+        icon: "../assets/react.png",
+        title:"Podcast Player", 
+        img: "../assets/bandp.png",
+        desc: "Not a React.js project but It was quite interesting putting this together. I built this with Vanilla Javascript, HTML and CSS, I also utilized Font-awesome CDN",
+        link: "https://infallible-mcclintock-d02178.netlify.app/",
+        github: "https://github.com/g-prog/podcast-player"
+
+    },
+    {
+        id: 2,
         icon: "../assets/react.png",
         title:"Meck App", 
         img: "../assets/meck.png",

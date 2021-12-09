@@ -9,7 +9,7 @@
   overflow-y: hidden;
 
   .arrow {
-    height: 50px;
+    height: 40px;
     position: absolute;
     cursor: pointer;
 
@@ -21,29 +21,23 @@
         display: none;
       }
 
-      @include tablet {
+      @include tablet{
         height: 20px;
       }
 
-     
+      
 
     &.left {
       left: 100px;
       transform: rotateY(-180deg);
       
-
-      @include tablet {
-        left: 0;
-        
-      }
+    
+      
     }
 
     &.right {
       right: 100px;
-     
-      @include tablet{
-        right: 0;
-      }
+
     }
   }
 
@@ -60,13 +54,18 @@
       justify-content: center;
     }
 
+  
     @include iphone8 {
         height: 100vh;
         flex-direction: column;
         justify-content: center;
-      }
+    }
 
-      
+    @include tablet {
+      height: 100vh;
+      flex-direction: column;
+      justify-content: center;
+  }
 
     .container {
       width: 100vw;
@@ -83,23 +82,26 @@
         align-items: center;
         justify-content: center;
 
+       
         @include mobile {
           width: 80%;
           height: 150px;
           margin: 15px 0;
         }
 
-        @include tablet {
-          width: 300px;
+        @include tablet{
+          width: 80%;
+          height: 150px;
+          margin: 15px 0;
         }
 
         @include iphone8 {
             width: 80%;
             height: 150px;
-            margin: 10px 0;
+            margin: 50px 0;
           }
 
-          
+         
 
         .left {
           flex: 8;
@@ -110,9 +112,7 @@
           @include iphone8 {
             flex: 8;
           }
-
          
-          
 
           .leftContainer {
             width: 90%;
@@ -121,10 +121,19 @@
             flex-direction: column;
             justify-content: space-between;
 
+           
+
             @include iphone8 {
-                width: 150%;
-                height: 80%;
-              }
+              width: 150%;
+              height: 80%;
+              
+            }
+
+            @include tablet{
+              width: 150%;
+              height: 80%;
+              
+            }
 
              
 
@@ -139,6 +148,9 @@
               align-items: center;
               justify-content: center;
 
+
+            
+
               @include mobile {
                 width: 20px;
                 height: 20px;
@@ -147,10 +159,16 @@
               @include iphone8 {
                 width: 20px;
                 height: 20px;
-              
+                
               }
 
-             
+              @include tablet {
+                width: 20px;
+                height: 20px;
+                
+              }
+
+              
 
               img {
                 width: 25px;
@@ -160,6 +178,11 @@
                 }
 
                 @include iphone8 {
+                  width: 15px;
+                }
+
+
+                  @include tablet{
                     width: 15px;
                   }
 
@@ -177,7 +200,11 @@
                 font-size: 10px;
               }
 
-             
+              @include tablet{
+                font-size: 10px;
+              }
+
+              
             }
             p {
               font-size: 13px;
@@ -190,8 +217,11 @@
                 font-size: 7px;
               }
 
-              
-              
+              @include tablet{
+                font-size: 7px;
+              }
+
+             
             }
             span {
               font-size: 12px;
@@ -201,6 +231,12 @@
 
               @include iphone8{
                 font-size: 8px;
+                
+              }
+
+              @include tablet{
+                font-size: 8px;
+                
               }
 
              
@@ -219,7 +255,11 @@
             flex: 4;
           }
 
-         
+          @include tablet{
+            flex: 4;
+          }
+
+          
 
          
 
@@ -228,8 +268,12 @@
             transform: rotate(-10deg);
 
             @include iphone8 {
-                width: 150px;
-              }
+                width: 100px;
+            }
+
+            @include tablet{
+              width: 100px;
+          }
 
              
           }
