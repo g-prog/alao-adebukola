@@ -32,7 +32,7 @@ export default function Workthree() {
     },
 
     {
-        id: 2,
+        id: 3,
         icon: "../assets/html.jpg",
         title:"Static Header Section", 
         img: "../assets/agriculture.png",
@@ -46,7 +46,7 @@ export default function Workthree() {
 
 
     {
-        id: 3,
+        id: 4,
         icon: "../assets/html.jpg",
         title:"Outer Space CSS Animations", 
         img: "../assets/stars.png",
