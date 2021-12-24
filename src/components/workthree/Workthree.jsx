@@ -8,14 +8,12 @@ export default function Workthree() {
 
     {
       id: 1,
-      icon: "../assets/html.jpg",
-      title:"Logistics Website", 
-      img: "../assets/abgees.png",
-      desc: "A Logistics Website still in production",
-      link: "https://eager-blackwell-af8aab.netlify.app/",
-      github: "https://github.com/g-prog/abcdlanding"
-
-
+      icon: "../assets/react.png",
+      title:"Podcast Player", 
+      img: "../assets/bandp.png",
+      desc: " I built  the Play, Pause, Previous and Next functionalities. I built this with Vanilla Javascript, HTML and CSS, I also utilized Font-awesome CDN. I am currently working on its mobile-responsiveness.",
+      link: "https://infallible-mcclintock-d02178.netlify.app/",
+      github: "https://github.com/g-prog/podcast-player"
 
   },
     {
