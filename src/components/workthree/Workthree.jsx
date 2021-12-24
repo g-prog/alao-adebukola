@@ -16,8 +16,21 @@ export default function Workthree() {
       github: "https://github.com/g-prog/podcast-player"
 
   },
-    {
+
+  {
         id: 2,
+        icon: "../assets/html.jpg",
+        title:"Web Application hooked with Firebase backend", 
+        img: "../assets/lombaz.png",
+        desc: "Built with HTML and CSS, Vanilla JavaScript. Firebase",
+        link: "https://github.com/g-prog/lombaz",
+        github: "https://github.com/g-prog/lombaz"
+
+
+
+    },
+    {
+        id: 3,
         icon: "../assets/html.jpg",
         title:"Static Landing Page", 
         img: "../assets/static.png",
@@ -30,7 +43,7 @@ export default function Workthree() {
     },
 
     {
-        id: 3,
+        id: 4,
         icon: "../assets/html.jpg",
         title:"Static Header Section", 
         img: "../assets/agriculture.png",
@@ -44,7 +57,7 @@ export default function Workthree() {
 
 
     {
-        id: 4,
+        id: 5,
         icon: "../assets/html.jpg",
         title:"Outer Space CSS Animations", 
         img: "../assets/stars.png",

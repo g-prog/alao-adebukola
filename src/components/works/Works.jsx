@@ -7,9 +7,18 @@ export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
 
-    
     {
-        id: 1,
+      id: 1,
+      icon: "../assets/react.png",
+      title:"Bookings/Travel Website", 
+      img: "../assets/search2.png",
+      desc: " I set up a Nodejs server using the Strapi Content Management System and utilized the REST API's generated therein in the frontend using a combination of Axios, React's useFetch, useState and useEffect hooks",
+      link: "https://github.com/g-prog/Ethical-Solutions-3",
+      github: "https://github.com/g-prog/Ethical-Solutions-3"
+
+  },
+    {
+        id: 2,
         icon: "../assets/react.png",
         title:"Meck App", 
         img: "../assets/meck.png",
@@ -19,19 +28,10 @@ export default function Works() {
 
     },
 
-    {
-      id: 3,
-      icon: "../assets/react.png",
-      title:"Portfolio Website", 
-      img: "../assets/mines.png",
-      desc: "Built with React.js, Tailwind CSS, HTML, CSS. I utilized React hooks to make the navigation hamburger icon  and portfolio section reactive, I implemented snap-scrolling and built a carousel slider from scratch.",
-      link: "https://alao-adebukola.vercel.app",
-      github: "https://github.com/g-prog/alao-adebukola"
-
-  },
+    
 
     {
-        id: 2,
+        id: 3,
         icon: "../assets/react.png",
         title:"ABCD Website", 
         img: "../assets/abcd.png",
@@ -44,7 +44,7 @@ export default function Works() {
     },
 
     {
-        id: 3,
+        id: 4,
         icon: "../assets/react.png",
         title:"Vasiti Website", 
         img: "../assets/vasiti.png",
