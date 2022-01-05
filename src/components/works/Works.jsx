@@ -10,6 +10,17 @@ export default function Works() {
     {
       id: 1,
       icon: "../assets/react.png",
+      title:"Job Application Web App", 
+      img: "../assets/findjobs.png",
+      desc: " I built two mock API's for this web app, I utilized the API's in creating a project where users can search for jobs, view and apply for jobs and  I also created an admin section where users can post, edit and delete a job entry. Built with React, Material UI, Tailwind CSS.",
+      link: "https://tedbree.vercel.app/",
+      github: "https://github.com/g-prog/tedbree"
+
+  },
+
+    {
+      id: 2,
+      icon: "../assets/react.png",
       title:"Bookings/Travel Website", 
       img: "../assets/search2.png",
       desc: " I set up a Nodejs server using the Strapi Content Management System and utilized the REST API's generated therein in the frontend using a combination of Axios, React's useFetch, useState and useEffect hooks",
@@ -31,7 +42,7 @@ export default function Works() {
     
 
     {
-        id: 3,
+        id: 4,
         icon: "../assets/react.png",
         title:"ABCD Website", 
         img: "../assets/abcd.png",
@@ -44,7 +55,7 @@ export default function Works() {
     },
 
     {
-        id: 4,
+        id: 5,
         icon: "../assets/react.png",
         title:"Vasiti Website", 
         img: "../assets/vasiti.png",

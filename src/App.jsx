@@ -28,8 +28,8 @@ function App() {
         <Intro/>
         <Portfolio/>
         <Works/>
-        <Worktwo/>
         <Workthree/>
+        <Worktwo/>
         <Skills/>
         <Testimonials/>
         <About/>

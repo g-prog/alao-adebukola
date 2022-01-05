@@ -11,7 +11,7 @@ export default function Workthree() {
       icon: "../assets/react.png",
       title:"Podcast Player", 
       img: "../assets/bandp.png",
-      desc: " I built  the Play, Pause, Previous and Next functionalities. I built this with Vanilla Javascript, HTML and CSS, I also utilized Font-awesome CDN. I am currently working on its mobile-responsiveness.",
+      desc: " I built  the Play, Pause, Previous and Next functionalities typical of music/podcast players. I built this with Vanilla Javascript, HTML and CSS, I also utilized Font-awesome CDN. I am currently working on its mobile-responsiveness.",
       link: "https://infallible-mcclintock-d02178.netlify.app/",
       github: "https://github.com/g-prog/podcast-player"
 
@@ -22,8 +22,8 @@ export default function Workthree() {
         icon: "../assets/html.jpg",
         title:"Web Application hooked with Firebase backend", 
         img: "../assets/lombaz.png",
-        desc: "Built with HTML and CSS, Vanilla JavaScript. Firebase",
-        link: "https://github.com/g-prog/lombaz",
+        desc: "Built with HTML and CSS, Vanilla JavaScript. Firebase. User data can be sent to firebase backend. It is completely mobile responsive.",
+        link: "https://lombaz-g-prog.vercel.app/",
         github: "https://github.com/g-prog/lombaz"
 
 
