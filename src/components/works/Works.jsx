@@ -94,10 +94,15 @@ export default function Works() {
                   <div className="description">
                     <h2>{d.title}</h2>
                     <p>{d.desc}</p>
+                    
+
+                  </div>
+                  <div className="bottom">
                     <span><a href={d.link}><p>Hosted Project</p></a></span>
                     <span><a href={d.github}><p>Github</p></a></span>
 
                   </div>
+                 
                   
                   
                 </div>

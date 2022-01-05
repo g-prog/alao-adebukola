@@ -133,15 +133,30 @@
          
 
           .leftContainer {
-            width: 90%;
+            width: 80%;
             height: 70%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
 
             .description {
-              width: 112%;
+              width: 105%;
               height: 100%;
+              
+
+              @include iphone8 {
+                padding: 5px 5px;
+                width: 112%;
+                height: 100%;
+                
+                
+              }
+              
+            }
+            
+            .bottom{
+              width: 52%;
+              height: 50%;
               padding: 5px 5px;
               
             }
@@ -149,13 +164,13 @@
 
             @include iphone8 {
               width: 170%;
-              height: 180%;
+              height: 300%;
               
             }
 
             @include tablet{
               width: 170%;
-              height: 180%;
+              height: 300%;
               
             }
 
@@ -255,12 +270,14 @@
 
               @include iphone8{
                 font-size: 8px;
+                margin-top: 5px;
                 
                 
               }
 
               @include tablet{
                 font-size: 8px;
+                margin-top: 5px;
                
                
                 
