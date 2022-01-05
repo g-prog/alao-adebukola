@@ -124,11 +124,11 @@
           align-items: center;
           justify-content: center;
           @include iphone8 {
-            flex: 8;
+            flex: 9;
           }
 
           @include tablet{
-            flex: 8;
+            flex: 9;
           }
          
 
@@ -278,11 +278,11 @@
           overflow: hidden;
 
           @include iphone8 {
-            flex: 4;
+            flex: 3;
           }
 
           @include tablet{
-            flex: 4;
+            flex: 3;
           }
 
           
@@ -294,11 +294,14 @@
             transform: rotate(-10deg);
 
             @include iphone8 {
-                width: 100px;
+                width: 10px;
             }
-
+            
+            @include mobile {
+              width: 10px;
+          }
             @include tablet{
-              width: 100px;
+              width: 10px;
           }
 
              
