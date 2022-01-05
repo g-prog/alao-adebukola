@@ -66,7 +66,7 @@
   }
 
     .container {
-      width: 100vw;
+      width: 200vw;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -140,8 +140,9 @@
             justify-content: space-between;
 
             .description {
-              width: 130%;
-              height: 80%;
+              width: 112%;
+              height: 100%;
+              padding: 5px 5px;
               
             }
 
@@ -233,15 +234,15 @@
               font-size: 13px;
 
               @include mobile{
-                font-size: 4px;
+                font-size: 2px;
               }
 
               @include iphone8{
-                font-size: 4px;
+                font-size: 2px;
               }
 
               @include tablet{
-                font-size: 4px;
+                font-size: 2px;
               }
 
              
