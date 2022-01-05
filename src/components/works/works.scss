@@ -72,6 +72,21 @@
       justify-content: center;
       margin-top: 20px;
 
+      @include mobile {
+        height: 160%;
+        
+      }
+
+      @include tablet{
+        height: 160%;
+        
+      }
+
+      @include iphone8 {
+        height: 160%;
+        
+      }
+
       .item {
         width: 700px;
         height: 100%;
@@ -124,17 +139,22 @@
             flex-direction: column;
             justify-content: space-between;
 
-           
+            .description {
+              width: 130%;
+              height: 80%;
+              
+            }
+
 
             @include iphone8 {
               width: 150%;
-              height: 80%;
+              height: 180%;
               
             }
 
             @include tablet{
               width: 150%;
-              height: 80%;
+              height: 180%;
               
             }
 
@@ -177,16 +197,16 @@
                 width: 25px;
 
                 @include mobile {
-                  width: 15px;
+                  width: 10px;
                 }
 
                 @include iphone8 {
-                  width: 15px;
+                  width: 10px;
                 }
 
 
                   @include tablet{
-                    width: 15px;
+                    width: 10px;
                   }
 
                  
@@ -235,10 +255,12 @@
               @include iphone8{
                 font-size: 8px;
                 
+                
               }
 
               @include tablet{
                 font-size: 8px;
+               
                
                 
               }
