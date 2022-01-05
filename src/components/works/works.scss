@@ -84,19 +84,19 @@
        
         @include mobile {
           width: 80%;
-          height: 150px;
+          height: 250px;
           margin: 15px 0;
         }
 
         @include tablet {
           width: 80%;
-          height: 150px;
+          height: 250px;
           margin: 15px 0;
         }
 
         @include iphone8 {
             width: 80%;
-            height: 150px;
+            height: 250px;
             margin: 50px 0;
           }
 
@@ -213,15 +213,15 @@
               font-size: 13px;
 
               @include mobile{
-                font-size: 7px;
+                font-size: 4px;
               }
 
               @include iphone8{
-                font-size: 7px;
+                font-size: 4px;
               }
 
               @include tablet{
-                font-size: 7px;
+                font-size: 4px;
               }
 
              
@@ -239,6 +239,7 @@
 
               @include tablet{
                 font-size: 8px;
+               
                 
               }
 
