@@ -14,7 +14,7 @@ export default function Testimonials() {
                 <div className="card">
                     <div className="circle"></div>
                     <div className="content">
-                        <h6>Zillian Group Canada (Remote) </h6>
+                        <h6>Zillian Group, Canada (Remote) </h6>
                         <h6>September 2021-present</h6>
                         <h6>Front End Developer</h6>
                         <div className="item">
@@ -26,7 +26,7 @@ export default function Testimonials() {
                                 <p>Utilized REST APIS from a Node.js backend, to the frontend.</p>
                             </div>
                             <div className="item3">
-                                <p>Developed drag-and-drop web pages using Editor.js and Grapes.js in addition to developing a podcast web app using HTML,CSS and Vanilla Javascript.</p>
+                                <p>Developed drag-and-drop web pages using Editor.js and Grapes.js.</p>
                             </div>
                         </div>
                         
@@ -38,7 +38,7 @@ export default function Testimonials() {
                 <div className="card2">
                     <div className="circle"></div>
                     <div className="content">
-                    <h6>Africa's Blockchain Center for Developers</h6>
+                    <h6>Africa's Blockchain Center for Developers, Nigeria.</h6>
                         <h6>October 2020-May 2021</h6>
                         <h6>Web Developer</h6>
                         <div className="item">
