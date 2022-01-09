@@ -62,7 +62,7 @@ export default function Testimonials() {
             </div>
 
             <div className="resume">
-                <a href="https://docs.google.com/document/d/1Bo7Y4pxm0hGGd107V38_MVuftFIUbKRU/edit?usp=sharing&ouid=101220437427303354739&rtpof=true&sd=true">
+                <a href="https://docs.google.com/document/d/101220437427303354739&rtpof=true&sd=true">
                     <button>View full Resume</button>
                 </a>
             </div>
