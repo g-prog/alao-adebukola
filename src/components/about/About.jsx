@@ -16,7 +16,7 @@ function About() {
                     <p> I am Alao Adebukola, a First Class Graduate of Agricultural Extension and Rural Development 
                         from Obafemi Awolowo University, Ile-Ife, Nigeria.
                         I am deeply passionate about Front-end development and I have 2 years Industry experience building 
-                        Web applications. 
+                        Web applications. Currently, I work remotely as a Front-End Developer for Zillian Group, Canada.
                     </p>
                     <p>Although I have experience working in the server-side of web applications, at the interim, I am primarily
                     focused on Front-end Web development.</p>
