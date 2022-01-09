@@ -23,7 +23,7 @@ export default function Works() {
       icon: "../assets/react.png",
       title:"Bookings/Travel Website", 
       img: "../assets/search2.png",
-      desc: " I set up a Nodejs server using the Strapi  and utilized the REST API's generated therein in the frontend using a combination of Axios, React hooks to build a web application where users can view available destinations from an API, seach for destinations and book destinations.",
+      desc: " I set up a Nodejs server using the Strapi CMS and utilized the REST API's generated therein in the frontend using a combination of Axios, React hooks to build a web application where users can view available destinations from an API, seach for destinations and book destinations.",
       link: "https://github.com/g-prog/Ethical-Solutions-3",
       github: "https://github.com/g-prog/Ethical-Solutions-3"
 
