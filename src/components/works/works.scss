@@ -49,7 +49,7 @@
     transition: all 1s ease-out;
 
     @include mobile {
-      height: 100vh;
+      height: 140vh;
       flex-direction: column;
       justify-content: center;
     }
