@@ -3,6 +3,11 @@
     background-color: white;
     overflow-y: hidden;
 
+    @include tablet{
+        height: 100vh; 
+    }
+    
+
     .heading{
         display: flex;
         justify-content: center;
@@ -22,7 +27,9 @@
 
 
         @include tablet{
-            margin-left: 2px;  
+            display: flex; 
+            flex-direction: row;
+            flex-wrap: wrap;
         }
         
         .images,.images2,.images3{
@@ -42,9 +49,7 @@
                     margin-left: 20px;  
                 }
 
-                @include iphone8{
-                    margin-left: 20px;  
-                }
+               
 
                 @include tablet{
                     margin-left: 20px;  

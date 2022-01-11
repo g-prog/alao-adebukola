@@ -5,18 +5,14 @@
     @include mobile{
         flex-direction: column;
     }
-    @include iphone8{
-        flex-direction: column;
-    }
+   
 
     
 
     .left{
         flex: 1;
         margin-top: 50px;
-        @include iphone8{
-            margin-left: 35px;
-        }
+       
         @include mobile{
             margin-left: 35px;
         }
@@ -56,10 +52,12 @@
                     height: 30px;
                 }
 
-                @include iphone8{
+                @include tablet{
                     width: 200px;
                     height: 30px;
                 }
+
+               
 
             
             }
@@ -75,10 +73,12 @@
                     height: 100px;
                 }
 
-                @include iphone8{
+                @include tablet{
                     width: 200px;
                     height: 100px;
                 }
+
+                
 
 
                

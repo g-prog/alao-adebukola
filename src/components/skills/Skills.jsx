@@ -8,7 +8,7 @@ export default function Skills() {
             </div>
             
             <div className="container">
-            <div className="images">
+                <div className="images">
                 <div className="items">
                     <img src="assets/react.png" alt="react" />
                     <p className="text-center">REACT</p>
@@ -23,7 +23,7 @@ export default function Skills() {
                     <img src="assets/html.jpg" alt="html" />
                     <p className="text-center">HTML</p>
                 </div>  
-            </div>
+                </div>
 
                 <div className="images2">
                     <div className="items">

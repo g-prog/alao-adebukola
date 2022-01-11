@@ -1,6 +1,7 @@
 @import "../../global.scss";
 .about{
     background-color: white;
+    overflow-y: hidden;
     .heading{
         display: flex;
         justify-content: center;
@@ -20,17 +21,13 @@
             margin-top: 0px;   
             overflow-y: hidden;
         }
-        @include iphone8{
-            flex-direction: column;   
-            margin-top: 0px;  
-            overflow-y: hidden;
-        }
 
         @include tablet{
-            flex-direction: column;   
-            margin-top: 0px;  
             overflow-y: hidden;
         }
+        
+
+       
 
 
         .left{
@@ -41,12 +38,10 @@
                 @include mobile{
                     margin-left: 70px;     
                 }
-                @include iphone8{
-                    margin-left: 70px;     
-                }
+               
                 
                 @include tablet{
-                    margin-left: 70px;     
+                    margin-left: 10px;     
                 }
                 
 
@@ -60,6 +55,11 @@
 
         .right{
             margin-left: 20px;
+
+            @include tablet{
+                margin-right: 30px;
+            }
+            
             p{
                 font-size: 15px;
                 text-align: justify;
@@ -69,11 +69,7 @@
                     text-align: center;   
                 }
 
-                @include iphone8{
-                    font-size: 10px;    
-                    text-align: center; 
-                }
-
+                
                 @include tablet{
                     font-size: 10px;    
                     text-align: center; 

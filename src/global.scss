@@ -1,8 +1,8 @@
 $mainColor:#15026a;
 
-$width: 360px;
+$width: 600px;
 $width2: 768px;
-$width3: 375px;
+$width3: 992px;
 
 
 @mixin mobile {
@@ -13,7 +13,7 @@ $width3: 375px;
     
 }
 
-@mixin iphone8 {
+@mixin desktop{
     @media (max-width: #{$width3}) {
         @content
         

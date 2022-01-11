@@ -4,23 +4,24 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: hidden;
+
+    
 
    
     .cta{
         margin-top: 10px;
+        @include tablet{
+            display: none;  
+        }
         a{
             position: absolute;
             left: 50%;
             @include mobile{
                 left: 45%;  
             }
-            @include iphone8{
-                left: 45%;  
-            }
 
-            @include tablet{
-                left: 45%;  
-            }
+            
 
             img{
                 width: 30px;
@@ -42,22 +43,23 @@
             font-size: 30px;  
         }
 
-        @include iphone8{
-            font-size: 30px;  
+        @include tablet{
+            font-size: 25px;  
         }
 
-        @include tablet{
-            font-size: 30px;  
-        }
     }
     .container{
         display: flex;
         align-items: center;
+        overflow-y: hidden;
+        @include tablet{
+            flex-wrap: wrap;  
+        }
      .item{
         img{
             @include tablet{
-                width: 70px;
-                height: 60px;
+                width: 20px;
+                height: 10px;
             } 
         }
      }
@@ -91,16 +93,11 @@
                 padding: 3px;
                 font-size: 10px;  
             }
-            @include iphone8{
-                margin-right: 8px;
-                padding: 3px;
-                font-size: 10px;  
-            }
 
             @include tablet{
                 margin-right: 8px;
                 padding: 3px;
-                font-size: 10px;  
+                font-size: 8px;  
             }
 
 
@@ -123,9 +120,6 @@
             width: 100%;
         }
 
-        @include iphone8{
-            width: 100%;
-        }
 
         @include tablet{
             width: 100%;
@@ -154,10 +148,6 @@
                 height: 120px;
             }
 
-            @include iphone8{
-                width: 120px;
-                height: 100px;
-            }
 
             @include tablet{
                 width: 120px;
@@ -177,19 +167,13 @@
                 object-fit: cover;
                 z-index: 1;
 
-                @include iphone8{
+                @include mobile{
                     object-fit: cover;
                     border-radius: 38px;
                     width: 130px;
                     height: 120px;
                 }
 
-                @include tablet{
-                    object-fit: cover;
-                    border-radius: 38px;
-                    width: 130px;
-                    height: 120px;
-                }
                 
             }
 

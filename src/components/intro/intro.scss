@@ -7,9 +7,7 @@
     @include mobile{
         flex-direction: column;     
     }
-    @include iphone8{
-        flex-direction: column;     
-    }
+    
     
 
     .left{
@@ -39,12 +37,7 @@
                 
             }
 
-            @include iphone8{
-                width: 400px;   
-                height: 400px;
-                align-items: flex-start;
-                
-            }
+            
 
             img{
                
@@ -57,9 +50,7 @@
                     height: 80%;     
                 }
 
-                @include iphone8{
-                    height: 80%;     
-                }
+                
 
             }
         }
@@ -97,11 +88,7 @@
                     margin: 1px;
                 }
 
-                @include iphone8{
-                    font-size: 30px;   
-                    font-weight: 400;  
-                    margin: 1px ;
-                }
+                
             }
 
             h2{
@@ -120,11 +107,7 @@
                     
                 }
 
-                @include iphone8{
-                    font-size: 20px;   
-                    font-weight: 300;  
-                    
-                }
+               
             }
 
             h3{
@@ -145,10 +128,7 @@
                          
                     }
 
-                    @include iphone8{
-                        font-size: 20px;   
-                         
-                    }
+                   
 
                     
                 }
