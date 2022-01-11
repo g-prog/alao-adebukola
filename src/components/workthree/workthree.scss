@@ -59,6 +59,12 @@
       margin-top: 20px;
       overflow-y: hidden;
 
+      @include mobile {
+        height: 160%;
+        margin-bottom: 30px;
+        
+      }
+
       @include tablet{
         margin-bottom: 50px;
         

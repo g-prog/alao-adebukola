@@ -59,6 +59,12 @@
       align-items: center;
       justify-content: center;
 
+      @include mobile {
+        height: 160%;
+        margin-bottom: 30px;
+        
+      }
+
       @include tablet{
         margin-bottom: 50px;
         
