@@ -3,8 +3,8 @@ import { useState } from "react";
 import "./works.scss";
 
 export default function Works() {
-  
   const [currentSlide, setCurrentSlide] = useState(0);
+ 
   const data = [
 
     {
@@ -29,7 +29,7 @@ export default function Works() {
 
   },
     {
-        id: 2,
+        id: 3,
         icon: "../assets/react.png",
         title:"Meck App", 
         img: "../assets/meck.png",
@@ -41,18 +41,7 @@ export default function Works() {
 
     
 
-    {
-        id: 4,
-        icon: "../assets/react.png",
-        title:"ABCD Website", 
-        img: "../assets/abcd.png",
-        desc: "Built the About page section of the ABCD website with the help of  Tailwind CSS,  HTML, CSS and Next.js.",
-        link: "https://abcd-website.vercel.app/about",
-        github: "https://github.com/FayVik/abcd-website"
-
-
-
-    },
+    
 
     {
         id: 5,
@@ -68,17 +57,16 @@ export default function Works() {
     
 
   ];
-
   const handleClick = (way) => {
     way === "left"
       ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
+ 
+ 
   
   return (
     <div className="works" id="works">
-      
-      
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
@@ -132,6 +120,7 @@ export default function Works() {
 
 
 
+     
 
       
     </div>
