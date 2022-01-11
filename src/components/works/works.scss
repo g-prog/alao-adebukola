@@ -56,13 +56,13 @@
 
   
     @include iphone8 {
-        height: 100vh;
+        height: 140vh;
         flex-direction: column;
         justify-content: center;
     }
 
     @include tablet {
-      height: 100vh;
+      height: 140vh;
       flex-direction: column;
       justify-content: center;
   }
