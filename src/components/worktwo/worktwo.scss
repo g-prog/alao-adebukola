@@ -24,6 +24,10 @@
     &.left {
       left: 100px;
       transform: rotateY(-180deg);
+      @include tablet{
+        left: 20px;
+        
+      }
       
     
       
@@ -31,6 +35,10 @@
 
     &.right {
       right: 100px;
+      @include tablet{
+        right: 20px;
+        
+      }
 
     }
   }

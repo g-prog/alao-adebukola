@@ -10,7 +10,7 @@
         justify-content: center;
 
         @include mobile{
-            margin-top: 15px;
+            display: none;
             
         }
 
@@ -91,6 +91,9 @@
 
         @include mobile{
             min-height: 40vh;
+            display: flex;
+            flex-direction: column !important;
+            margin-left: 90px;
         }
 
         @include tablet{
@@ -128,6 +131,9 @@
                 height: 100%;
                 border-radius: 20px;
                 overflow: hidden;
+               
+
+               
 
                
             }
@@ -166,7 +172,7 @@
                     left: 72%;
                     height: 220px;
                     @include mobile{
-                        left: 80%;
+                        left: 150% !important;
                     }
 
                     @include tablet{
@@ -180,6 +186,8 @@
                     h6,p{
                         color: white;
                     }
+
+                   
                     
                 }
             }
@@ -187,6 +195,7 @@
             .content{
                 @include mobile{
                     font-size: 10px;
+                    width: 70%;
                 }
 
                 @include tablet{
@@ -211,6 +220,7 @@
 
                     @include mobile{
                         margin-top: 2px;
+                        margin-left: 200px;
                     }
 
                     @include tablet{
@@ -221,6 +231,7 @@
                 .item{
                     @include tablet{
                         margin-top: 0px;
+                        margin-left: 200px;
                     }
                     .item1,.item2,.item3{
                         margin-top: 6px;
