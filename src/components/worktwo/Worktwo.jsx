@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import "./worktwo.scss";
+import Card from '../../Card'
 
 export default function Worktwo() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -93,7 +94,18 @@ export default function Worktwo() {
       />
 
 
-
+<div className="mobile-display">
+          {data.map((d) => (
+            <Card
+                    src={d.img}
+                    title={d.title}
+                    description={d.desc}
+                    link={d.link}
+                    github={d.github}
+                 />
+                 ))}
+         
+          </div>
 
       
     </div>

@@ -130,7 +130,7 @@ export default function Works() {
                     src={d.img}
                     title={d.title}
                     description={d.desc}
-                    hosted={d.link}
+                    link={d.link}
                     github={d.github}
                  />
                  ))}

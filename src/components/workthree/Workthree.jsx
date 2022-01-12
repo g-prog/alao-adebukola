@@ -129,28 +129,16 @@ export default function Workthree() {
 
 
           <div className="mobile-display">
-          <Card
-                    src='../assets/stars.png'
-                    title='Buky App'
-                    description='Built with  React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utiliz'
+          {data.map((d) => (
+            <Card
+                    src={d.img}
+                    title={d.title}
+                    description={d.desc}
+                    link={d.link}
+                    github={d.github}
                  />
-
-
-        <Card
-                    src='../assets/stars.png'
-                    title='Buky App'
-                    description='Built with  React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utiliz'
-                 />
-
-
-<Card
-                    src='../assets/stars.png'
-                    title='Buky App'
-                    description='Built with  React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utiliz'
-                 />
-
-
-
+                 ))}
+         
           </div>
 
       

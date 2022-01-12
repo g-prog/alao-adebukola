@@ -6,7 +6,18 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  .mobile-display{
+    display: none;
 
+    @include mobile {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  }
   .arrow {
     height: 40px;
     position: absolute;
