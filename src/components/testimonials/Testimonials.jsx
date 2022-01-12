@@ -6,6 +6,10 @@ export default function Testimonials() {
             <div className="cta">
                 <p>Click/hover on the images</p>
             </div>
+
+            <div className="cta2">
+                <p>Tap on the white background</p>
+            </div>
            
            <div className="heading">
                 <h1>Work Experience</h1>

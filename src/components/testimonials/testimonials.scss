@@ -34,7 +34,7 @@
         position: absolute;
 
         @include mobile{
-            top: 40px;
+            display: none;
             
         }
 
@@ -55,6 +55,32 @@
         
 
        
+    }
+
+    .cta2{
+        display: none;
+
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            top: 60px;
+            left: 135px;
+            position: absolute;
+            
+        }
+
+        p{
+            @include mobile{
+                font-size: 10px;
+                
+            }
+
+        }
+        
+       
+
     }
 
    
