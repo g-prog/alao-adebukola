@@ -1,7 +1,7 @@
 import React from 'react';
 import './card.scss';
 
-function Card({ src, title, description, link,github }) {
+function Card({ src, title, description, link, github }) {
     return (
         <div className='cards'>
             <img src={src} alt="" />
