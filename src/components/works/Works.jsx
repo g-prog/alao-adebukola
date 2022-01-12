@@ -8,6 +8,17 @@ export default function Works() {
   const data = [
 
     {
+      id: 5,
+      icon: "../assets/react.png",
+      title:"Vasiti Website", 
+      img: "../assets/vasiti.png",
+      desc: "I was inspired by the Vasiti.com website. Built with the help of React.js, Tailwind CSS,SASS, HTML, CSS.",
+      link: "https://template-nine-xi.vercel.app/",
+      github: "https://github.com/g-prog/template"
+
+  },
+
+    {
       id: 1,
       icon: "../assets/react.png",
       title:"Job Application Web App", 
@@ -43,16 +54,7 @@ export default function Works() {
 
     
 
-    {
-        id: 5,
-        icon: "../assets/react.png",
-        title:"Vasiti Website", 
-        img: "../assets/vasiti.png",
-        desc: "I was inspired by the Vasiti.com website. Built with the help of React.js, Tailwind CSS,SASS, HTML, CSS.",
-        link: "https://template-nine-xi.vercel.app/",
-        github: "https://github.com/g-prog/template"
-
-    },
+    
 
     
 
