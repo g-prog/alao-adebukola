@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import "./works.scss";
+import Card from '../../Card'
 
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -119,6 +120,32 @@ export default function Works() {
         alt=""
         onClick={() => handleClick()}
       />
+
+
+<div className="mobile-display">
+           
+
+{data.map((d) => (
+            <Card
+                    src={d.img}
+                    title={d.title}
+                    description={d.desc}
+                    hosted={d.link}
+                    github={d.github}
+                 />
+                 ))}
+            
+
+                  
+                
+
+                
+      
+      
+
+           </div>
+
+
 
 
 

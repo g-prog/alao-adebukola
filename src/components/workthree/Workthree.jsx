@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./workthree.scss";
+import Card from '../../Card'
 
 export default function Workthree() {
   
@@ -127,7 +128,30 @@ export default function Workthree() {
       />
 
 
+          <div className="mobile-display">
+          <Card
+                    src='../assets/stars.png'
+                    title='Buky App'
+                    description='Built with  React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utiliz'
+                 />
 
+
+        <Card
+                    src='../assets/stars.png'
+                    title='Buky App'
+                    description='Built with  React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utiliz'
+                 />
+
+
+<Card
+                    src='../assets/stars.png'
+                    title='Buky App'
+                    description='Built with  React.js, Tailwind CSS, Material UI, SASS, HTML and CSS. I utiliz'
+                 />
+
+
+
+          </div>
 
       
     </div>

@@ -8,7 +8,18 @@
   position: relative;
 
   
+  .mobile-display{
+    display: none;
 
+    @include mobile {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+    
+  }
   .arrow {
     height: 40px;
     position: absolute;
@@ -53,10 +64,7 @@
     overflow-y: hidden;
 
     @include mobile {
-      height: 180vh;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-end;
+     display: none;
     }
 
   
@@ -74,10 +82,7 @@
       
 
       @include mobile {
-        height: 160% !important;
-        margin-bottom: 30px;
-        overflow-y: scroll;
-        padding: 100px 20px;
+        display: none;
         
       }
 
@@ -100,8 +105,7 @@
 
        
         @include mobile {
-          width: 80%;
-          height: 150px;
+          display: none;
         }
 
         @include tablet {

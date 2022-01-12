@@ -92,9 +92,7 @@
 
        
         @include mobile {
-          width: 80%;
-          height: 150px;
-          margin: 15px 0;
+          display: none;
         }
 
         @include tablet{
