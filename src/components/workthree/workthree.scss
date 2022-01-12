@@ -68,7 +68,7 @@
       overflow-y: hidden;
 
       @include mobile {
-        height: 160%;
+        height: 360% !important;
         margin-bottom: 30px;
         overflow-y: scroll;
         
