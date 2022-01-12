@@ -213,6 +213,10 @@
                 .content{
                     h6,p{
                         color: white;
+
+                        @include tablet{
+                            color: white !important;
+                        }
                     }
 
                    
@@ -257,7 +261,7 @@
                 }
 
                 .item{
-                    @include tablet{
+                    @include mobile{
                         margin-top: 0px;
                         margin-left: 200px;
                     }
