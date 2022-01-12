@@ -51,7 +51,7 @@
     transition: all 1s ease-out;
 
     @include mobile {
-      height: 150vh;
+      height: 180vh;
       flex-direction: column;
       justify-content: center;
       align-items: flex-end;
