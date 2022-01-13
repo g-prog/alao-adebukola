@@ -96,7 +96,7 @@ export default function Worktwo() {
 
 <div className="mobile-display">
           {data.map((d) => (
-            <Card
+            <Card key={d.id}
                     src={d.img}
                     title={d.title}
                     description={d.desc}

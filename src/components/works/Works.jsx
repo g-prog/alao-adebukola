@@ -60,6 +60,9 @@ export default function Works() {
     
 
   ];
+
+
+  
   const handleClick = (way) => {
     way === "left"
       ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
@@ -124,13 +127,13 @@ export default function Works() {
 
 <div className="mobile-display">
            
-
 {data.map((d) => (
-            <Card
+  
+            <Card key={d.id}
                     src={d.img}
                     title={d.title}
                     description={d.desc}
-                    link={d.link}
+                    link={d.link} 
                     github={d.github}
                  />
                  ))}
@@ -146,7 +149,7 @@ export default function Works() {
            </div>
 
 
-
+           
 
 
      

@@ -55,11 +55,20 @@
         .image1,.image2{
             width: 60px;
             height: 60px;
-            border-radius: 50%;
+            border-radius: 50% !important;
             margin-right: 10px;
+
+            @include mobile{
+                overflow-y: hidden;  
+                margin-top: 15px;  
+            }
         }
         .image3,.image4,.image5{
             margin-right: 10px;
+
+            @include mobile{
+                overflow-y: hidden;    
+            }
         }
     }
 }

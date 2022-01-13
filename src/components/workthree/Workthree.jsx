@@ -129,13 +129,13 @@ export default function Workthree() {
 
 
           <div className="mobile-display">
-          {data.map((f) => (
-            <Card
-                    src={f.img}
-                    title={f.title}
-                    description={f.desc}
-                    link={f.link}
-                    github={f.github}
+          {data.map((d) => (
+            <Card key={d.id}
+                    src={d.img}
+                    title={d.title}
+                    description={d.desc}
+                    link={d.link}
+                    github={d.github}
                     
 
                  />
