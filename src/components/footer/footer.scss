@@ -60,7 +60,7 @@
 
             @include mobile{
                 overflow-y: hidden;  
-                margin-top: 15px;  
+                margin-top: 10px;  
             }
         }
         .image3,.image4,.image5{
@@ -68,6 +68,7 @@
 
             @include mobile{
                 overflow-y: hidden;    
+                
             }
         }
     }
