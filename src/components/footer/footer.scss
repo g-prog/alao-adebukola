@@ -76,14 +76,14 @@
 
             a img{
                 @include mobile{
-                    width: 10px; 
+                    width: 15px; 
                     border-radius: 50% !important;
                     
                 }
             }
 
             @include mobile{
-                margin-top: 12px;
+                margin-top: 22px !important;
                 margin-right: 2px;
                 
                
@@ -95,12 +95,12 @@
 
             a img{
                 @include mobile{
-                    width: 13px;  
+                    width: 17px;  
                 }
             }
 
             @include mobile{
-                
+                margin-top: 4px;
                 margin-right: 20px; 
                 
             }
