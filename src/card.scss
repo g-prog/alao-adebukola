@@ -44,7 +44,8 @@
   
     @include mobile {
       .cards{
-        height: 280px;
+        height: auto;
+        width: 120px;
       }
 
       .card__info > h4 {
