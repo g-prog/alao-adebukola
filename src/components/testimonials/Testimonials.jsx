@@ -35,7 +35,7 @@ export default function Testimonials() {
                         </div>
                         
                     </div>
-                    <img src="assets/work1.jpg" alt="caj" />
+                    <img src="assets/work1.jpg" alt="placeholder" />
                 </div>
 
 
