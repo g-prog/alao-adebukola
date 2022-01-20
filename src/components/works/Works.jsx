@@ -8,7 +8,16 @@ export default function Works() {
  
   const data = [
 
-    
+    {
+      id: 4,
+      icon: "../assets/react.png",
+      title:"A Business Consultation Website", 
+      img: "../assets/aria.png",
+      desc: " A business website still in production. Built with React, Material UI, HTML, CSS.",
+      link: "https://aria-g-prog.vercel.app/",
+      github: "https://github.com/g-prog/joblisting"
+
+  },
 
     {
       id: 1,
@@ -47,7 +56,7 @@ export default function Works() {
       icon: "../assets/react.png",
       title:"Vasiti Website", 
       img: "../assets/vasiti.png",
-      desc: "I was inspired by the Vasiti.com website. I used CSS Flexbox to make it responsive across all devices. Built with the help of React.js, Tailwind CSS,SASS, HTML, CSS.",
+      desc: "I was inspired by the Vasiti.com website. I used CSS Flexbox to make it responsive on mobile devices.  Currently working on its tablet responsiveness. Built with the help of React.js, Tailwind CSS,SASS, HTML, CSS.",
       link: "https://template-nine-xi.vercel.app/",
       github: "https://github.com/g-prog/template"
 
