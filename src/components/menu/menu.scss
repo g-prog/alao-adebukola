@@ -16,7 +16,7 @@
     transition: all 1s ease;
 
     &.active{
-        right: 0.1;
+        right: 0;
         background-color: $mainColor;
         color: white;
     }

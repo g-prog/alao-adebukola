@@ -7,17 +7,30 @@ export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
  
   const data = [
+    {
+      id: 6,
+      icon: "../assets/react.png",
+      title:"Movie Search App", 
+      img: "../assets/movies.png",
+      desc: " I utilized the OMDBAPI to build a web app where users can search for all Batman movie categories. Built with React hooks and Styled components",
+      link: "https://movies-g-prog.vercel.app/",
+      github: "https://github.com/g-prog/movies"
+  
+    },
+    
 
     {
       id: 4,
       icon: "../assets/react.png",
       title:"A Business Consultation Website", 
       img: "../assets/aria.png",
-      desc: " A business website still in production. Built with React, Material UI, HTML, CSS.",
+      desc: " A Business  Consultation website. Built with React, Material UI, HTML, CSS.",
       link: "https://aria-g-prog.vercel.app/",
       github: "https://github.com/g-prog/joblisting"
 
   },
+
+  
 
     {
       id: 1,
@@ -140,24 +153,16 @@ export default function Works() {
            
 {data.map((d) => (
   
-            <Card key={d.id}
-                    src={d.img}
-                    title={d.title}
-                    description={d.desc}
-                    link={d.link} 
-                    github={d.github}
-                 />
-                 ))}
-            
+  <Card key={d.id}
+    src={d.img}
+    title={d.title}
+    description={d.desc}
+    link={d.link} 
+    github={d.github}
+  />
+  ))}   
 
-                  
-                
-
-                
-      
-      
-
-           </div>
+</div>
 
 
            
