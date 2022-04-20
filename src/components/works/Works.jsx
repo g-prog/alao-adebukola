@@ -7,16 +7,7 @@ export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
  
   const data = [
-    {
-      id: 6,
-      icon: "../assets/react.png",
-      title:"Movie Search App", 
-      img: "../assets/movies.png",
-      desc: " I utilized the OMDBAPI to build a web app where users can search for all Batman movie categories. Built with React hooks and Styled components",
-      link: "https://movies-g-prog.vercel.app/",
-      github: "https://github.com/g-prog/movies"
-  
-    },
+    
     
 
     {
@@ -51,6 +42,37 @@ export default function Works() {
       desc: " I set up a Nodejs server using the Strapi CMS and utilized the REST API's generated therein in the frontend using a combination of Axios, React hooks to build a web application where users can view available destinations from an API, seach for destinations and book destinations.",
       link: "https://github.com/g-prog/Ethical-Solutions-3",
       github: "https://github.com/g-prog/Ethical-Solutions-3"
+
+  },
+  {
+    id: 6,
+    icon: "../assets/react.png",
+    title:"Movie Search App", 
+    img: "../assets/movies.png",
+    desc: " I utilized the OMDBAPI to build a web app where users can search for all Batman movie categories. Built with React hooks and Styled components",
+    link: "https://movies-g-prog.vercel.app/",
+    github: "https://github.com/g-prog/movies"
+
+  },
+
+  {
+    id: 7,
+    icon: "../assets/react.png",
+    title:"My Portfolio Website", 
+    img: "../assets/mines.png",
+    desc: " I built my Portfolio website to better display my projects as a Front End Developer. Built with React hooks, HTML, SCSS",
+    link: "https://alao-adebukola.vercel.app/",
+    github: "https://github.com/g-prog/alao-adebukola"
+
+  },
+  {
+    id: 6,
+    icon: "../assets/react.png",
+    title:"React Form Validation App", 
+    img: "../assets/movies.png",
+    desc: " Currently working on learning how to validate forms using pure React without any external libraries. Built with React hooks, HTML, CSS",
+    link: "https://react-form-validation-view-g-prog.vercel.app",
+    github: "https://github.com/g-prog/react-form-validation"
 
   },
     {
